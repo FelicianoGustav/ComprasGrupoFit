@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+iframe {
+      width: 100vw;
+      height: 40.5vw;
+      border: none;
+}
+
+body {
+    
+    background-image: linear-gradient(to right, rgb(245, 217, 201) 16.62%, #fdae80 200%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    font-family: Arial, sans-serif;
+    min-height: 15dvh;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+}
+
+
+.grupofit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img
+{
+    width: 120px;
+}
+
+.pesq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fc5c00;
+    max-width: 40dvh;
+    width: 500px;
+    font-size: 13px;
+    margin: 0 430px;
+}
+
+
+.grupofit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 71dvh;
+    height: auto;
+    padding: 40px 20px;
+}
+
+
+.coluna {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 19%;
+    display: block;
+    
+}
+
+.cabecalho {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fc5c00;
+    text-align: center;
+    
+}
+
+.cabecalho h2 {
+    text-decoration: none;
+    color: #fc5c00;
+}
+
+.informacoes {
+    font-family: Arial, sans-serif;
+    background-color: #ffc288;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.informacoes:hover {
+    transform: scale(1.05);
+    background-color: #fc5c00;
+}
+
+.informacoes h3 {
+    font-size: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 14dvh;
+    height: 50px;
+    padding: 15px;
+}
+
+.fitLogo img {
+    max-width: 100%;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .coluna {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .logo img{
+    width: 100px;
+    margin-right: -20px;
+}
+
+
+  .coluna {
+        
+        display: flex;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cabecalho{
+
+        display: flex;
+        justify-content: left;
+        border: none;
+        background-color: none;
+        text-decoration: underline  #ffffff;
+        background: none;
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    .sodexo {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logokc {
+        margin-bottom: 20px;
+    }
+
+    .pesq input {
+        width: 90%;
+    }
+}
