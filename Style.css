@@ -47,14 +47,11 @@ body {
 .logo img
 {
     width: 100px;
-    margin-right: -110px;
+    margin-right: -130px;
 }
 
 .pesq {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding-bottom: 5px;
     color: white;
     max-width: 40dvh;
     width: 500px;
