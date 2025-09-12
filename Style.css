@@ -46,7 +46,8 @@ body {
 
 .logo img
 {
-    width: 115px;
+    width: 100px;
+    margin-right: -110px;
 }
 
 .pesq {
@@ -58,7 +59,7 @@ body {
     max-width: 40dvh;
     width: 500px;
     font-size: 13px;
-    margin: 0 430px;
+    margin: 0 auto;
 }
 
 
